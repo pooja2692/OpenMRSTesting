@@ -44,7 +44,7 @@ public class Generic {
 		switch(browser) {
 		case "chrome":
 
-			WebDriverManager.chromedriver().version("97.0.4692.71").setup();
+			WebDriverManager.chromedriver().version("99.0.4844.51").setup();
 			ChromeOptions choption = new ChromeOptions();
 			choption.addArguments("start-maximized");
 			driver=new ChromeDriver(choption);
